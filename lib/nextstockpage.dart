@@ -95,7 +95,9 @@ class _NextStockPageState extends State<NextStockPage> {
           size: 20,
         ),
       ),
+      
     ),
+    
     StepperData(
       title: StepperText(
         "In City",
@@ -149,7 +151,7 @@ class _NextStockPageState extends State<NextStockPage> {
               color: Color(0xFF7d67f8),
               borderRadius: BorderRadius.circular(50),
             ),
-            child: badge(
+            child: Badge(
               badgeStyle: BadgeStyle(
                 badgeColor: Colors.blue,
                 borderRadius: BorderRadius.circular(4),
@@ -172,6 +174,7 @@ class _NextStockPageState extends State<NextStockPage> {
               ),
             ),
           ),
+          Container(child:badges.Badge()),
           SizedBox(
             width: 10,
           ),
@@ -196,7 +199,6 @@ class _NextStockPageState extends State<NextStockPage> {
             width: 20,
           ),
         ],
-     
       ),
       body: Stack(
         children: [
@@ -602,5 +604,5 @@ class _NextStockPageState extends State<NextStockPage> {
   }
 }
 
-badge({required BadgeStyle badgeStyle, required Text badgeContent, required CircleAvatar child}) {
-}
+// badge({required BadgeStyle badgeStyle, required Text badgeContent, required CircleAvatar child}) {
+//}

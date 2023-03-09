@@ -1,6 +1,7 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:jan23task1/nextstockpage.dart';
 import 'package:jan23task1/stock.dart';
 
 void main() {

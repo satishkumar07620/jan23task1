@@ -69,11 +69,13 @@ class _StockState extends State<Stock> {
           color: Color.fromARGB(237, 9, 9, 9),
           size: 18,
         ),
+        
         actions: [
           CircleAvatar(
             backgroundColor: Colors.green,
             radius: 40,
             child: badge(
+              
               badgeStyle: BadgeStyle(
                 badgeColor: Colors.white,
                 borderRadius: BorderRadius.circular(4),
